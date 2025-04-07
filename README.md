@@ -21,3 +21,9 @@ Guides for different file types
 
 3) .bin =binary
    1) strings <filename>.bin
+
+
+4) .eml
+   1) strings
+  
+5) 

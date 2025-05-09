@@ -1,6 +1,10 @@
 # Files_unknown
 Guides for different file types
 
+try this first:
+
+strings <filename> | grep "password="
+strings <filename> | grep PWD
 
 
 

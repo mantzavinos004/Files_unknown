@@ -75,3 +75,11 @@ $ for file in frames/*.png; do tesseract "$file" stdout >> results.txt; done
 It takes a moment, but after a while we got results.txt file we can check. It contains a bunch of crap, but using grep we can get our flag:
 $ cat results.txt | grep 1753c{
 
+7) .kdbx
+   you need keepass to find the code.
+   sudo apt install keepassxc
+   git clone keepass4brute.sh
+   and run it with rockyou.txt
+   
+   
+   

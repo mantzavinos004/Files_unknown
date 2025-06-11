@@ -128,4 +128,24 @@ then:
 a. oleid filename.doc
 
 b. 
-   
+---------------------------------------------------------------------------------------------------------------------------
+9) .elf
+    
+   1.   vol -f name.elf windows.pslist            (gives running processes on the machine, search for weird names.exe and keep there PID)
+  
+   2.   vol -f name.elf windows.netscan            (gives connections at the time of dump taken, try to find the samw weird .exes running)
+  
+   3.   vol -f name.elf windows.cmdline            (get commands that were used to run those processes)
+
+  or
+
+   4.   vol -f name.elf windows.cmdline --pid 1234
+    
+
+
+
+
+
+
+
+

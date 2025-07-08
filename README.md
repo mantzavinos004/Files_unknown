@@ -141,7 +141,21 @@ b.
 
    4.   vol -f name.elf windows.cmdline --pid 1234
     
+----------------------------------------------------------------------------------------------------------------------------
+10) .xlsx
 
+    office2john file.xlsx >> hash.txt
+
+    john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+
+    then create env to use msoffcrypto:
+    1. python3 -m venv venv
+    2. source venv/bin/activate
+    3. pip install msoffcrypto-tool
+    4. python3 -m msoffcrypto -p password file.xlsx newname.xlsx
+    5. open newname.xlsx
+       
+    
 
 
 

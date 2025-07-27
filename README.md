@@ -154,8 +154,8 @@ b.
     3. pip install msoffcrypto-tool
     4. python3 -m msoffcrypto -p password file.xlsx newname.xlsx
     5. open newname.xlsx
-       
-    
+-------------------------------------------------------------------------------------------------------------------------------
+11)
 
 
 

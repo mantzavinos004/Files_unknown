@@ -172,7 +172,11 @@ IconFile=\\10.10.XX.XX\tools\nc.ico
 [Taskbar]
 
 Command=ToggleDesktop
+.....................................................................................................
 
+12) .vbs
+
+    Visual Basic Scripting Edition, commonly referred to as VBScript, is a lightweight scripting language first introduced by Microsoft in 1996. The language has been available as a system component in Windows OS and has been widely used for automating tasks and controlling applications on Windows-based systems
 
 
 
